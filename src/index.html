@@ -4,11 +4,32 @@
   <meta charset="utf-8">
   <title>Twitter3</title>
   <base href="/">
-
+  <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root></app-root>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+          apiKey: "AIzaSyBA0kk8cSoa6arw8XFD9bQQ6CcVzLL4jzQ",
+          authDomain: "angular-twitter-ea475.firebaseapp.com",
+          databaseURL: "https://angular-twitter-ea475.firebaseio.com",
+          projectId: "angular-twitter-ea475",
+          storageBucket: "angular-twitter-ea475.appspot.com",
+          messagingSenderId: "300563095791",
+          appId: "1:300563095791:web:1ec525aaeeba1c53"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
+
